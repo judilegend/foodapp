@@ -1,0 +1,278 @@
+*{
+  text-decoration: none;
+  list-style: none;
+  left: 0;
+  top: 0;
+}
+body
+{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-weight: 500;
+  background: #FDD8D8;
+}
+main{
+  position: relative;
+}
+.navbar{
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+.navbar ul {
+  display: flex;
+  justify-content: space-around;
+}
+.navbar ul li{
+  margin-left: 20px;
+
+}
+.navbar ul li a{
+  color: #000;
+}
+.contact{
+
+  margin-left:69%;
+}
+.btn-contact,.get-started{
+  padding: 10px;
+  border: none;
+  border-radius: 100px;
+}
+.btn-contact{
+  background: #790846;
+  width: 90px;
+
+}
+.btn-contact a{
+  color: white;
+  font-family: sans-serif;
+  font-weight: 530;
+}
+/*****************************************************************Accueil************************************************/
+.acceuil{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+.eclipse{
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  position: absolute;
+  right: 0;
+  z-index: -2;
+}
+.eclipse img{
+  width: 55%;
+  height: 120vh;
+}
+.text-accueil{
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+.home-image{
+  width: 500px;
+}
+.text-accueil h1,.product-text h1{
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  color: #f80c089a;
+  margin: 0;
+}
+.text-accueil h1 span{
+  color:#1BBD45
+}
+p{
+  line-height: 25px;
+  font-size: 18px;
+}
+.get-started{
+  display: flex;
+  gap: 6px;
+  padding: 13px 15px;
+  justify-content: center;
+  background: #790846;
+  color: white;
+  width: 170px;
+  border-radius: 100px;
+}
+.get-started .right{
+  width: 15px;
+}
+.select {
+  margin-top: 35px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 400px;
+  /* border-radius: 50%; */
+}
+
+.image1{
+  margin-bottom: 5px;
+}
+.select img{
+  width: 70px;
+  /* box-shadow:  12px 65px 10px 40px #cecccc54 ; */
+  /* border-radius: 0 0 350px 350px; */
+  
+
+}
+.flex{
+  display: flex;
+  justify-content: flex-start;
+  position: absolute;
+  flex-direction: row;
+  gap: 340px;
+  align-items: end;
+}
+#layer ,.layer1 {
+  width: 160px;
+  border-radius: 50%;
+  height: 160px;
+  z-index: -988;  
+
+
+}
+#layer{
+  background:linear-gradient(to right, rgb(206, 196, 58), rgb(228, 106, 106));
+  filter: blur(36px);
+  align-self: end;
+}
+.layer1{
+  background:rgb(240, 190, 53);
+  filter: blur(54px);
+}
+/***********************************************Production********************************************/
+.product-page{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap:600px;
+  align-items: center;
+  margin-top: 100px;
+
+}
+.product{
+  position: relative;
+  max-width: 500px;
+  height: 600px;
+}
+.product-text{
+  right: 0;
+  max-width: 500px;
+}
+.product img{
+  width: 300px;
+}
+.img2,.img3,.img1{
+  position: absolute;
+}
+.img1{
+  top: 0;
+  left: 220px;
+  border-radius: 50%;
+  height: 290px;
+}
+.img3{
+  top: 200px;
+  left: 150px;
+}
+/******************card *******************************/
+
+.card{
+  width: 300px;
+  height:500px ;
+  box-sizing: border-box;
+  background: #fff;
+  border-radius: 25px;
+  box-shadow: 0px 4px 100px 1px #ecc9c9a1 ;
+  position: relative;
+}
+.panier{
+  background: #F38080;
+  width: fit-content;
+  border-radius: 50%;
+  padding: 10px;
+  position: absolute;
+  height: fit-content;
+  top: 450px;
+  left: 270px;
+}
+.panier img{
+  width: 40px;
+}
+.image-header{
+  height: 50%;
+}
+.image-header img{
+  width: 100%;
+  height: 100%;
+  border-radius: 25px 25px 0 0 ;
+
+}
+.titre{
+  padding: 10px;
+}
+.titre h1 ,.titre h2 {
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.titre h1{
+  font-size: 20px;
+  text-align: center;
+}
+.titre h2{
+  font-size: 17px;
+}
+.titre p{
+  font-size: 14px;
+  line-height: normal;
+}
+.main-card{
+  display: flex;
+  flex-wrap: wrap;
+  /* padding: 20px; */
+  /* background: #f8d8a5; */  
+  position: relative;
+  padding: 50px;
+  justify-content: center;
+  align-content: center;
+  column-gap: 60px;
+  row-gap: 70px;
+}
+.bg-card{
+  width: 100%;
+  height: 88.5vh;
+  background:url("/Rectangle 1.png ");
+  position: absolute;
+  background-repeat: no-repeat;
+  z-index: -2;
+  top: 300px;
+}
+.basket{
+  background:#fff;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  position: relative;
+  top: 234px;
+  left: 93%;
+  padding: 5px;
+}
+.basket img{
+  width: 100%;
+}
+/**************^*******************************footer****************************/
+.footer {
+  width: 100%;
+  height: 40vh;
+  background: #fff;
+}
